@@ -1,4 +1,4 @@
-package com.example.cms.cms.domain;
+package com.example.cms.user.domain;
 
 import java.time.LocalDate;
 import lombok.AllArgsConstructor;

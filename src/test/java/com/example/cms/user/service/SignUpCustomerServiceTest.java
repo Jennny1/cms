@@ -1,8 +1,7 @@
-package com.example.cms.cms.service;
+package com.example.cms.user.service;
 
-import com.example.cms.cms.domain.SignUpForm;
+import com.example.cms.user.domain.SignUpForm;
 import java.time.LocalDate;
-import java.util.Date;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

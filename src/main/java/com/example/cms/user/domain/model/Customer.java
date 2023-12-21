@@ -1,6 +1,6 @@
-package com.example.cms.cms.domain.model;
+package com.example.cms.user.domain.model;
 
-import com.example.cms.cms.domain.SignUpForm;
+import com.example.cms.user.domain.SignUpForm;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Locale;

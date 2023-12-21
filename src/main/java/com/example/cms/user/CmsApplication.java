@@ -1,8 +1,10 @@
-package com.example.cms.cms;
+package com.example.cms.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
+@EnableFeignClients
 @SpringBootApplication
 public class CmsApplication {
 
