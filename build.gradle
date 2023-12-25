@@ -11,6 +11,10 @@ java {
     sourceCompatibility = '11'
 }
 
+ext{
+    set('springCloudVersion', '2021.0.1')
+}
+
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
@@ -37,15 +41,16 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     // MySQL Connector: MySQL과의 연결을 위한 드라이버
     implementation 'mysql:mysql-connector-java:8.0.28' // 사용하는 MySQL 버전에 맞는 버전을 선택하세요
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
 
 
 }
 
-/*dependencyManagement {
+dependencyManagement {
     imports {
         mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
     }
-}*/
+}
 
 
 tasks.named('test') {
